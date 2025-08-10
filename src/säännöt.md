@@ -1,7 +1,7 @@
 # Säännöt
 
 > [!Note]
-> Pelin ovat suunnitelleet ja tehtävät laatineet tietojenkäsittelytieteestä valmistunut filosofian maisteri (Mai Sahlberg) ja suuri kielimalli (Google Gemini 2.5). Tämä ei ole hoitokäytänteen tai äänenkäytön asiantuntijoiden tai ammattilaisten laatima peli.
+> Pelin ovat suunnitelleet ja tehtävät laatineet tietojenkäsittelytieteestä valmistunut filosofian maisteri (Mai Sahlberg) ja suuri kielimalli (Google Gemini 2.5). Tämä ei ole äänenkäytön asiantuntijoiden tai ammattilaisten laatima peli, pelaaminen omalla vastuulla.
 > 
 > Pelin grafiikan suunnittelussa on käytetty apuna Midjourney:n generatiivista algoritmia.
 > 
@@ -13,7 +13,7 @@ Pelin ensisijainen tavoite on harjoitella äänen käyttöä hauskalla ja sosiaa
 Peli päättyy, kun joku pelaaja saavuttaa sateenkaaren oikean reunan. Voittaja on se pelaaja, joka on oman tavoitevärinsä radalla ja jolla on eniten pisteitä.
 # Pelivalmistelut
 
-Kukin pelaaja valitsee itselleen haluamansa eläinhahmon, kolme nappulaansa ja eläinkortin. Yksi hahmoista asetetaan pisteradalle, joko nollaruutuun tai sen viereen, jos se ei mahdu sinne.  Kaksimuuta nappula ja hahmokortti jäävät vielä pelaajan eteen.
+Kukin pelaaja valitsee itselleen haluamansa eläinhahmon, kolme nappulaansa ja eläinkortin. Yksi hahmoista asetetaan pisteradalle, joko nollaruutuun tai sen viereen, jos se ei mahdu sinne.  Kaksi muuta nappulaa ja hahmokortti jäävät vielä pelaajan eteen.
 
 Sekoittakaa kaikki ryhmätehtäväkortit ja asettakaa ne niille varattuun ruutuun pelilaudalla tekstipuoli alaspäin.
 
@@ -27,7 +27,7 @@ Sopikaa tai arpokaa aloituspelaaja arpakuutiolla.
 
 # Ensimmäinen kierros
 
-Aloituspelaajasta alkaen kukin vuorotellen asettaa toisen nappulansa äänenkorkeus taulukkoon sille riville, millä kuvittelee äänenkorkeutensa nyt olevan ja sen jälkeen lukee ääneen seuraavan virkkeen:
+Aloituspelaajasta alkaen kukin vuorotellen asettaa toisen nappulansa äänenkorkeustaulukkoon sille riville, millä kuvittelee äänenkorkeutensa nyt olevan ja sen jälkeen lukee ääneen seuraavan virkkeen:
 
 "Kaksi suuntaa hississä, ylös ja alas. Antakaa mulle iso käsi!"
 
@@ -58,7 +58,7 @@ Jos muut pelaajat arvaavat mitä hän yrittää selittää ennen kuin tiimalasin
 
 ## 2. Ryhmätehtävä: dialogi 
 
-Pelaaja heittää kerran kuusisivuista noppaa (lyhyesti: 1d6) ja valitsee tehtävässä käytettävän dialogin tuloksen mukaan taulukosta 1. Dialogit. Mikäli pelaajia ei ole riittävästi dialogin toteuttamiseen, heitetään uudestaan. Vuorossa oleva pelaaja jakaa roolit.
+Pelaaja heittää kerran kuusisivuista noppaa (lyhyesti: 1d6) ja valitsee tehtävässä käytettävän dialogin tuloksen mukaan taulukosta: 1. Dialogit. Mikäli pelaajia ei ole riittävästi arvan valitseman dialogin toteuttamiseen, heitetään uudestaan. Vuorossa oleva pelaaja jakaa roolit.
 
 | Tulos | Pelaajamäärä | Dialogi                                 |
 | ----- | ------------ | --------------------------------------- |
