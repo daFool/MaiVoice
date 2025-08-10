@@ -15,7 +15,7 @@ Standien baset ovat 25mm halkaisijaltaan. 3D-tulosteet [Standee Base for Cardboa
 
 ## Lauta
 
-Pelilaudan ympäri kiertää pisterata, jossa on 20 ruutua. Kukin ruutu on 27mm korkea ja 52mm leveä. Laudan yläreunassa on sateenkaari, jossa kussakin värissä on vasemmalta oikealle kuusi ruutuparia, joiden välissä on 3mm tilaa ja joiden korkeus on 27mm ja leveys 52mm.
+Pelilaudan ympäri kiertää pisterata, jossa on 40 ruutua. Kukin ruutu on 27mm korkea ja 52mm leveä. Laudan yläreunassa on sateenkaari, jossa kussakin värissä on vasemmalta oikealle kuusi ruutukolmikkoa, joiden välissä on 3mm tilaa ja joiden korkeus on 27mm ja leveys 52mm.
 
 Sateenkaaren alla on yksi taulukko. Taulukossa on kuusi riviä ja seitsemän saraketta. Rivin korkeus on 27mm. Ensimmäinen sarake on otsikko ja sitä seuraa kuusi 27mm leveää saraketta.
 
@@ -30,11 +30,11 @@ Rivien otsikot ovat:
 Taulukon alla on paikat ryhmätehtäväkorteille, ruutu, joka on 58mm leveä ja 89mm korkea ja yksilötehtäväkorteille, myös 58mm leveä ja 89mm korkea.
 ## Arpakuutio ja tiimalasi
 
-6 sivuinen standardi noppa. 30 sekunnin tiimalasi
+6 sivuinen arpakuutio. 30 sekunnin tiimalasi.
 
 ## Ryhmätehtäväkortit
 
-Pelikortin kokoisia kortteja, joissa on esineiden kuvia. 
+Pelikortin kokoisia kortteja, joissa on takapuolella kuvia ja sanoja: 
 Esineet:
 - Avain
 - Silmälasit
@@ -144,7 +144,7 @@ Pelikortteja 58mmx78mm, kortteja on kahdeksan ja ne on tarkemmin selitetty sää
     
 - **Ohje:** Ota lyhyt, neutraali lause, kuten "Huomenna on uusi päivä". Sano lause ensin toteamuksena, jolloin sävelkorkeus laskee lopussa. Sano se sitten kysymyksenä, jolloin sävelkorkeus nousee lopussa.
     
-- **Pelissä:** Suorita molemmat versiot (toteamus ja kysymys) selkeällä intonaatiolla.
+- **Pelissä:** Suorita molemmat versiot (toteamus ja kysymys) selkeällä intonaatiolla tavoitealueellasi.
     
 
 **8. Tavut ja sävelet (Tarkkuus)**

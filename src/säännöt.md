@@ -1,14 +1,19 @@
 # Säännöt
 
+> [!Note]
+> Pelin ovat suunnitelleet ja tehtävät laatineet tietojenkäsittelytieteestä valmistunut filosofian maisteri (Mai Sahlberg) ja suuri kielimalli (Google Gemini 2.5). Tämä ei ole hoitokäytänteen tai äänenkäytön asiantuntijoiden tai ammattilaisten laatima peli.
+> 
+> Pelin grafiikan suunnittelussa on käytetty apuna Midjourney:n generatiivista algoritmia.
+> 
+
 # Tavoite
 
-Pelin ensisijainen tavoite on harjoitella äänen käyttöä sosiaalisella tavalla oman toivotun puheäänen löytämiseksi. 
+Pelin ensisijainen tavoite on harjoitella äänen käyttöä hauskalla ja sosiaalisella tavalla. Pelillisenä tavoitteena on edetä sateenkaariradalla ja kerätä pisteitä.
 
-Pelissä yrität kerätä itsellesi mahdollisimman paljon onnistumispisteitä ja pysyä asettamallasi tavoiteäänialueella. Pelin päättyessä se pelaaja voittaa, joka on kerännyt eniten onnistumispisteitä ja pysynyt tavoiteäänialueellaan. Pelaajat, jotka eivät ole pysyneet tavoiteäänialueellaan tai päässeet sateenkaarelle pisteitä eivät voi voittaa. 
-
+Peli päättyy, kun joku pelaaja saavuttaa sateenkaaren oikean reunan. Voittaja on se pelaaja, joka on oman tavoitevärinsä radalla ja jolla on eniten pisteitä.
 # Pelivalmistelut
 
-Kukin pelaaja valitsee itselleen haluamansa eläinhahmon, kolme nappulaansa ja eläinkortin. Yksi hahmoista asetetaan pisteradalle, joko nollaruutuun tai sen viereen, kun ruutu tulee täyteen. Toisen nappulansa pelaaja asetaa pelilaudan taulukkoon sille äänenkorkeudelle missä kuvittelee oman puheäänensä nyt olevan. Kolmas nappula ja hahmokortti jäävät vielä pelaajan eteen.
+Kukin pelaaja valitsee itselleen haluamansa eläinhahmon, kolme nappulaansa ja eläinkortin. Yksi hahmoista asetetaan pisteradalle, joko nollaruutuun tai sen viereen, jos se ei mahdu sinne.  Kaksimuuta nappula ja hahmokortti jäävät vielä pelaajan eteen.
 
 Sekoittakaa kaikki ryhmätehtäväkortit ja asettakaa ne niille varattuun ruutuun pelilaudalla tekstipuoli alaspäin.
 
@@ -22,13 +27,11 @@ Sopikaa tai arpokaa aloituspelaaja arpakuutiolla.
 
 # Ensimmäinen kierros
 
-Aloituspelaajasta alkaen kukin vuorotellen lukee ääneen seuraavan virkkeen:
+Aloituspelaajasta alkaen kukin vuorotellen asettaa toisen nappulansa äänenkorkeus taulukkoon sille riville, millä kuvittelee äänenkorkeutensa nyt olevan ja sen jälkeen lukee ääneen seuraavan virkkeen:
 
 "Kaksi suuntaa hississä, ylös ja alas. Antakaa mulle iso käsi!"
 
-Muut katsovat samalla äänenkorkeusmittaria, mikäli pelaajan ääni oli pääsääntöisesti hänen arvaamallaan äänialueella hän saa yhden pisteen ja saa asettaa nappulansa sateenkaaren vasemman puoleiseen ruutuun. Ennen asettamistaan hän kuitenkin valitsee taulukosta tavoite alueensa ja siirtää hahmonsa sitä vastaavalle riville. Oma kolmas nappula asetetaan sateenkaaren tavoitettava vastaavan värin ensimmäiseen ruutuun. 
-
-Jos arvasi oman taajuusalueensa väärin, ei saa nappulaansa sateenkaarelle eikä pisteille, mutta siirtää kuitenkin nappulansa osoittamaan tavoitettaan.
+Muut katsovat samalla äänenkorkeusmittaria, mikäli pelaajan ääni oli pääsääntöisesti hänen arvaamallaan äänialueella hän saa yhden pisteen, sen jälkeen hän korjaa nappulansa taulukossa vastaamaan tavoiteäänekorkeuttaan ja asetaa kolmannen nappulansa sateenkaaren vasemman puoleiseen ruutuun sille värille, joka vastaa hänen tavoitekorkeuttaan. 
 
 # Seuraavat kierrokset
 
@@ -39,20 +42,23 @@ Aloituspelaaja valitse yhden seuraavista toiminnoista:
 3. Yksilöhaaste
 4. Parihaaste
 
-Tehtävän onnistunut suorittaminen omalla äänialueella palkitaan aina liikkeellä sateenkaarella:
-- Jos olet tavoitevärissäsi, liikut yhden askeleen oikealle. 
-- Jos et ole tavoitevärissäsi, liikut yhden askeleen kohden tavoiteväriäsi sekä oikealle
+Tehtävän onnistunut suorittaminen omalla äänialueella palkitaan aina yhdellä tai kahdella liikkeellä sateenkaarella:
+- liikut sateenkaarella yhden askeleen oikealle ja 
+- jos et ole tavoitevärissäsi, liikut yhden askeleen ylöspäin tai alaspäin kohden tavoiteväriäsi.
 
-Jos taas epäonnistuit, liikut sateenkaarella väreissä yhden kauemmas siihen suuntaan joka mahdollistaa jatkossa mahdollisimman suuren etäisyyden. Jos olet jo huipulla tai pohjassa, et liiku.
+Jos taas epäonnistuit ja olit vuorossa oleva pelaaja, liikut sateenkaarella väreissä yhden alaspäin, jos tavoittesi on punainen, oranssi tai keltainen tai ylöspäin, jos tavoitteesi on jokin muu väri. Jos et voi enää liikkua ylös tai alaspäin, liikut yhden vasemmalle. 
+
+Huom! Vain siis vuorossa olevaa pelajaalle seuraa rangaistus epäonnistumisesta.
+
 ### 1. Ryhmätehtävä: sanaselitys
 
 Pelaaja nostaa muilta salassa ensimmäisen ryhmätehtäväkortin ja lukee itsekseen siinä olevan kategorian ja sanan. Sitten hän kertoo kategorian kaikille pelaajille, kääntää tiimalasin ja aloittaa sanan selittämisen. Sanaa selitetään tavoiteäänellä ja selityksessä ei saa käyttää itse sanaa tai sen suoraa synonyymiä missään muodossa tai kielellä. 
 
-Jos muut pelaajat arvaavat mitä hän yrittää selittää ennen kuin tiimalasin hiekka on valunut, saa hän 3 pistettä sekä oikein arvannut yhden pisteen. Käytetty kortti laitetaan kuvapuoli alaspäin pakan pohjalle.
+Jos muut pelaajat arvaavat mitä hän yrittää selittää ennen kuin tiimalasin hiekka on valunut (30 sekuntia), **saa hän kolme pistettä sekä oikein arvannut yhden pisteen**. Käytetty kortti laitetaan kuvapuoli alaspäin pakan pohjalle.
 
 ## 2. Ryhmätehtävä: dialogi 
 
-Pelaaja heittää kerran kuusisivuista noppaa (lyhyesti: 1d6) ja valitsee dialogin tuloksen mukaan taulukosta 1. Dialogit. Mikäli pelaajia ei ole riittävästi dialogin toteuttamiseen, heitetään uudestaan. Vuorossa oleva pelaaja jakaa roolit.
+Pelaaja heittää kerran kuusisivuista noppaa (lyhyesti: 1d6) ja valitsee tehtävässä käytettävän dialogin tuloksen mukaan taulukosta 1. Dialogit. Mikäli pelaajia ei ole riittävästi dialogin toteuttamiseen, heitetään uudestaan. Vuorossa oleva pelaaja jakaa roolit.
 
 | Tulos | Pelaajamäärä | Dialogi                                 |
 | ----- | ------------ | --------------------------------------- |
@@ -64,30 +70,26 @@ Pelaaja heittää kerran kuusisivuista noppaa (lyhyesti: 1d6) ja valitsee dialog
 | 6     | 2-3          | Kirjastossa                             |
 **Taulukko 1. Dialogit**
 
-Tässä tehtävässä vuorossa ollut pelaaja saa 2 pistettä ja osallistujat kukin yhden. Mikäli osallistuja tai pelaaja pysyvät tavoite äänialueillaan, saavat he kukin onnistumisen. Ainoastaan vuorossa olevaa pelaajaa rangaistaan epäonnistumisestaan.
+Tässä tehtävässä vuorossa ollut pelaaja **saa kaksi pistettä ja osallistujat kukin yhden**. Mikäli osallistuja tai pelaaja pysyvät tavoite äänialueillaan, saavat he kukin onnistumisen. 
 
 ## 3. Yksilöhaaste
 
 Pelaaja nostaa haastepinosta päällimmäisen kortin ja suorittaa haasteen. Muut arvioivat haasteen onnistumista. Käytettu haastekortti asetetaan pakan pohjalle.
 
-Korteissa on vain tehtävä. Kuvaukset löytyvät erillisestä liitteestä. Haasteen suorittamisesta saa yhden pisteen.
+Korteissa on vain tehtävä. Kuvaukset löytyvät erillisestä liitteestä. **Haasteen suorittamisesta saa yhden pisteen.**
 
 ### 4. Parihaaste
 
-Vuorossa oleva pelaaja valitsee itselleen haastekaverin. Kumpikin heittää ensin noppaa kerran ja katsoo tuloksen tunnetilataulukosta (taulukko 2. tunteet) ja sitten vuorossa oleva pelaaja heittää toisen kerran noppaa katsoen tuloksen taulukosta 3. suhteet. Vuorossa oleva pelaaja päättää suhteiden osapuolet, muistaen kuitenkin olevansa dialogin hahmo A. 
+Vuorossa oleva pelaaja valitsee itselleen haastekaverin. Kumpikin heittää ensin noppaa kerran ja katsoo haasteessa käytettävän tunnetilan tunnetilataulukosta (taulukko 2. tunteet). Tämän jälkeen vuorossa oleva pelaaja heittää toisen kerran noppaa katsoen tuloksen taulukosta 3. suhteet. Vuorossa oleva pelaaja päättää suhteiden osapuolet, muistaen kuitenkin olevansa dialogin hahmo A. 
 
-Kumpikin saa haasteen suorittamisesta kaksi pistettä ja onnistuessaan liikkeen sateenkaarella. Vain haasteen valinnutta rangaistaan epäonnistumisesta.
-
+**Kumpikin saa haasteen suorittamisesta kaksi pistettä**.
 
 ## Pelin päättyminen
 
 Peli päättyy välittömästi kun jonkun pelaajan nappula saavuttaa sateenkaaren oikean reunan. 
 
-Pelin voittaa se, joka on pelin kuluessa kerännyt eniten pisteitä ja on edelleen omalla värillään. Tasatilanteessa se jonka nappula on enemmän oikealla sateenkaarella voittaa ja mikäli nämäkin ovat tasan, on voitto jaettu.
-
+Pelin voittaa se, joka on pelin kuluessa on kerännyt eniten pisteitä ja on sateenkaarella edelleen omalla värillään. Tasatilanteessa se, jonka nappula on enemmän oikealla sateenkaarella voittaa ja mikäli nämäkin ovat tasan, on voitto jaettu.
 ## Huomattavaa
-
-Pelin ovat suunnitelleet ja tehtävät laatineet tietojenkäsittelytieteestä valmistunut filosofian maisteri ja suuri kielimalli. Tämä ei ole hoitokäytänteen tai äänenkäytön asiantuntijoiden tai ammattilaisten laatima peli.
 
 Harjoittelussa ja pelatessa kannattaa huomioida seuraavia asioita:
 - **Ei kipua:** Äänenkäytön ei pidä koskaan sattua. Jos tunnet kipua, kiristystä tai epämukavuutta, lopeta harjoitus.
