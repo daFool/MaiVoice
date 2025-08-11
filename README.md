@@ -25,3 +25,5 @@ Pelin tarkoitus on toimia hauskana pelillisenä tapana kokeilla ja omaksua uusi 
 Repository on jaettu seuraaviin alihakemistoihin:
 - src - pelin sääntöjen ja komponenttien lähdekieliset versiot
 - print - pelin tulostettavat komponentit pdf- ja stl-muotoisina
+
+[Sisällysluetteloon ->](/src/Sisällysluettelo.md)
